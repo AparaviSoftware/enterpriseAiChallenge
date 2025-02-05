@@ -58,6 +58,9 @@ PixelProofy’s engineers need **an AI-powered coding assistant** that can:
 
 ## 🛠️ Setup & Installation
 
+### ☁️ Aparavi Cloud Sandbox or Local Installation
+Ensure you have either an **Aparavi Cloud Sandbox** or a **local installation** set up. You can find instructions on how to set these up on our [YouTube channel](https://www.youtube.com/).
+
 ### 🔧 Prerequisites
 Ensure you have **Python 3.8+** installed, along with the required dependencies.
 
