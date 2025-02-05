@@ -1,0 +1,6 @@
+{
+  "huggingface_api_key": "<<your-huggingface-api-key>>",
+  "weaviate_url": "<<your-weaviate-instance-url>>",
+  "weaviate_api_key": "<<your-weaviate-api-key>>",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+}
