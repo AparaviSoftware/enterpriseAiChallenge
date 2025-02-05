@@ -34,6 +34,7 @@ Participants will **design and implement AI chatbots** that integrate with **Pix
 
 ### 1️⃣ Kevin’s Personal AI Assistant (Productivity Bot)
 Kevin is overwhelmed with **emails, meetings, and reports**. His assistant should:
+
 ✔ **Manage Emails & Schedule Meetings** 📧  
 ✔ **Access Kevin’s Employee & Performance Data** 📊  
 ✔ **Provide Work Updates & Prioritize Tasks** 🚀  
@@ -41,13 +42,14 @@ Kevin is overwhelmed with **emails, meetings, and reports**. His assistant shoul
 
 ### 2️⃣ The General Company AI Chatbot (HR & Onboarding Bot)
 This bot will **assist all employees** with:
+
 ✔ **Understanding Company Policies & Benefits** 📜  
 ✔ **Providing HR Guidance & Onboarding Help** 🏢  
-✔ **Handling IT & Operations Requests** 🏗  
 ✔ **Ensuring Secure Data Access** 🔒  
 
 ### 3️⃣ The PixelProofy Developer Bot (Coding Assistant)
 PixelProofy’s engineers need **an AI-powered coding assistant** that can:
+
 ✔ **Understand Proprietary Source Code** 💻  
 ✔ **Assist in Debugging, Testing & Code Review** 🔧  
 ✔ **Improve Collaboration & Code Documentation** 🔄  
@@ -72,8 +74,8 @@ python chat.py
 
 ## 📂 Configuration Files
 
-- `config.json` → Stores Weaviate & Hugging Face API keys
-- `llm_settings.json` → Manages LLM settings (GPT, prompts, temperature, tokens)
+- `config.json` → Stores Weaviate & Hugging Face API keys. See [Hugging Face Setup](./docs/huggingface_setup.md) and [Weaviate Setup](./docs/weaviate_setup.md) for more details.
+- `llm_settings.json` → Manages LLM settings (GPT, prompts, temperature, tokens). See [OpenAI Setup](./docs/openai_setup.md) for more details.
 
 ## 🛠️ LLM Prompt Engineering
 
@@ -107,7 +109,7 @@ Located in `llm_settings.json`:
 
 API keys for Weaviate & OpenAI are securely stored in:
 
-1. `config.json` (Weaviate & Hugging Face Keys)
+1. `config.json` (Weaviate & Hugging Face Keys). See [Hugging Face Setup](./docs/huggingface_setup.md) and [Weaviate Setup](./docs/weaviate_setup.md) for more details.
 
 ```json
 {
@@ -118,7 +120,7 @@ API keys for Weaviate & OpenAI are securely stored in:
 }
 ```
 
-2. `llm_settings.json` (OpenAI GPT Settings)
+2. `llm_settings.json` (OpenAI GPT Settings). See [OpenAI Setup](./docs/openai_setup.md) for more details.
 
 ```json
 {
