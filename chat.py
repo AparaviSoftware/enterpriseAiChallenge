@@ -20,19 +20,23 @@ llm_settings_path = os.path.join(current_dir, 'llm_settings.json')
 with open(llm_settings_path) as llm_settings_file:
     llm_settings = json.load(llm_settings_file)
 
-# Extract the configuration values
+##################################### CONFIGURATION START #####################################
+
+# Extract the configuration values - These are the only values you need to configure in the .json files
 huggingface_api_key = config["huggingface_api_key"]
 weaviate_url        = config["weaviate_url"]
 weaviate_api_key    = config["weaviate_api_key"]
 embedding_model     = config["embedding_model"]
 
-# Extract LLM settings
+# Extract LLM settings - These are the only values you need to configure in the .json files
 openai_api_key  = llm_settings["openai_api_key"]
 openai_model    = llm_settings["openai_model"]
 system_prompt   = llm_settings["system_prompt"]
 user_prompt     = llm_settings["user_prompt"]
 temperature     = llm_settings["temperature"]
 max_tokens      = llm_settings["max_tokens"]
+
+##################################### CONFIGURATION END #####################################
 
 # Initialize the OpenAI client
 openai_client = OpenAI(api_key=openai_api_key)
