@@ -27,6 +27,8 @@ PixelProofy’s **AI chatbot ecosystem** is powered by **Aparavi's AI Data Toolc
 
 Each chatbot will **leverage structured company data**, ensuring **secure and accurate** AI-driven decision-making.
 
+Find a full tutorial on how to build thos here https://www.youtube.com/playlist?list=PLTUIaL6kMMgccn7gRq7rcfujkJh3PYt8C
+
 ---
 
 ## 📌 Challenge Objectives
