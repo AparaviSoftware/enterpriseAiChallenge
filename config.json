@@ -1,6 +1,6 @@
 {
-  "huggingface_api_key": "<<your-huggingface-api-key>>",
-  "weaviate_url": "<<your-weaviate-instance-url>>",
-  "weaviate_api_key": "<<your-weaviate-api-key>>",
+  "huggingface_api_key": "<< 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>>",
+  "weaviate_url": "<<https://nwq7v19mrcg1ffspbovla.c0.us-west3.gcp.weaviate.cloud>>",
+  "weaviate_api_key": "<<fyZBxzjFe9vyvoa6eyiKP5777HiQT0HfduBU>>",
   "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
 }
